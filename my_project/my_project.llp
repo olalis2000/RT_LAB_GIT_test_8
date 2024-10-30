@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <General>
+        <att_name>Boost_And_Two_Level_Inverter</att_name>
+        <att_description></att_description>
+        <att_autosave>OFF</att_autosave>
+        <att_filename></att_filename>
+    </General>
+    <Models>
+        <Model>
+            <Path>
+                <Relative>models/Boost_and_Two_Level_Inverter_Sfun/Boost_and_Two_Level_Inverter_IO.slx</Relative>
+            </Path>
+        </Model>
+    </Models>
+</Project>

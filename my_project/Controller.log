@@ -1,0 +1,534 @@
+2024-10-30 16h22m6s:=======================================
+2024-10-30 16h22m6s: CONTROLLER START 
+2024-10-30 16h22m6s:=======================================
+2024-10-30 16h22m6s: 
+2024-10-30 16h22m6s:Using default NodeSessions limit.  Limit set to 1024.
+2024-10-30 16h22m6s: >>>> SessionRoot::initialize port 0
+2024-10-30 16h22m6s:Http Server initialization failed
+2024-10-30 16h22m6s:Begin to register on OpalRoot
+2024-10-30 16h22m6s:NetworkInterfaceManager: initializing...
+2024-10-30 16h22m6s:Update server name to : 10.168.10.13:25251
+2024-10-30 16h22m6s:Http Server initialization succeed
+2024-10-30 16h22m6s:Registered on OpalRoot, port 25251
+2024-10-30 16h22m6s:Loading services from "C:/OPAL-RT/RT-LAB/v2024.3.2.48/common/bin/x64/Services"
+2024-10-30 16h22m6s:  Plugin "DataAcquisition": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "DriverIdentification": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "Dummy": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "ePHASORSIM": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "HEI": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "IEC104": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "Matlab": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "MODBUS": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "Parameters": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "Pickering-41-752": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "RFM": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "SimulationSetup": services informations retrieved
+2024-10-30 16h22m6s:  Plugin "Web": services informations retrieved
+2024-10-30 16h22m6s:Root initialized: 10.168.10.13:25251/resources/root
+2024-10-30 16h22m6s:Service Web/Server found
+2024-10-30 16h22m6s:Address inserted in cache : 10.168.10.13:25251 => 1
+2024-10-30 16h22m6s:Initialization done
+2024-10-30 16h22m6s:[UniconComm] curl_global_init done
+2024-10-30 16h22m6s:ControllerMain.cpp------- NEW CONTROLLER STARTED (pid 31292) ------
+2024-10-30 16h22m6s:Controller.cppnew client: 31104
+2024-10-30 16h22m6s:CClient.cppCreating new client ID: 28252
+2024-10-30 16h22m6s:CClient.cppclientThread started with port:1200
+2024-10-30 16h22m6s:Instance ID = 0
+2024-10-30 16h22m6s:CClient.cppClient connected: name "pyrobert", computer "MTL-L-05487", ip "127.0.0.1", pid 30140
+2024-10-30 16h22m6s:CTarget.cppStarting observer for target OP5700_98
+2024-10-30 16h22m6s:CTarget.cppStarting observer for target OP5700_IVV_102
+2024-10-30 16h22m6s:CTarget.cppStarting observer for target OP5707_107
+2024-10-30 16h22m6s:Service SimulationSetup/SimulationSetup found
+2024-10-30 16h22m6s:No SyncExchangerRegistry found at C:/Users/PYRobert/GIT/AleksandraLis/RT_LAB_GIT_test_8/my_project/configurations/SyncExchangerRegistry
+2024-10-30 16h22m6s:Address inserted in cache : 10.168.11.98:2525 => 1
+2024-10-30 16h22m6s:Archive.cppArchiveFileToString : will open C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Boost_and_Two_Level_Inverter_IO.slx
+2024-10-30 16h22m6s:Archive.cppArchiveFileToString : C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Boost_and_Two_Level_Inverter_IO.slx opened
+2024-10-30 16h22m6s:WinUtils.cppCould not get the subsystem list. Verify that the model has been compiled.
+2024-10-30 16h22m6s: Open - Loading parameters/signals for : Boost_and_Two_Level_Inverter_IO
+2024-10-30 16h22m6s:Signal file 'C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Opcommon\Boost_and_Two_Level_Inverter_IO.signal' does not exist.
+2024-10-30 16h22m6s:Parameter file 'C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Opcommon\Boost_and_Two_Level_Inverter_IO.param' does not exist.
+2024-10-30 16h22m6s:[UniconComm][28252] call POST /projects/initialize
+2024-10-30 16h22m6s:Curl comm init (client 28252)
+2024-10-30 16h22m7s:Address inserted in cache : 10.64.110.102:2525 => 1
+2024-10-30 16h22m7s:Controller.cppnew client: 31104
+2024-10-30 16h22m7s:CClient.cppCreating new client ID: 33732
+2024-10-30 16h22m7s:CClient.cppclientThread started with port:1660
+2024-10-30 16h22m7s:Instance ID = 102
+2024-10-30 16h22m7s:CClient.cppClient connected: name "pyrobert", computer "MTL-L-05487", ip "127.0.0.1", pid 30164
+2024-10-30 16h22m7s:Controller.cppRemoving client: 33732
+2024-10-30 16h22m7s:Controller.cppSuccessful removal of client: 33732
+2024-10-30 16h22m7s:CClient.cpp  clientThread exit. ThreadParam = 0x3113c20
+2024-10-30 16h22m7s:Controller.cppnew client: 31104
+2024-10-30 16h22m7s:CClient.cppCreating new client ID: 3036
+2024-10-30 16h22m7s:CClient.cppclientThread started with port:1720
+2024-10-30 16h22m7s:Instance ID = 102
+2024-10-30 16h22m7s:CClient.cppClient connected: name "pyrobert", computer "MTL-L-05487", ip "127.0.0.1", pid 30164
+2024-10-30 16h22m7s:Parameter file 'C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Opcommon\Boost_and_Two_Level_Inverter_IO.param' does not exist.
+2024-10-30 16h22m7s:Signal file 'C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Opcommon\Boost_and_Two_Level_Inverter_IO.signal' does not exist.
+2024-10-30 16h22m7s:Signal file 'C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Opcommon\Boost_and_Two_Level_Inverter_IO.signal' does not exist.
+2024-10-30 16h22m7s:Signal file 'C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Opcommon\Boost_and_Two_Level_Inverter_IO.signal' does not exist.
+2024-10-30 16h22m7s:Controller.cppRemoving client: 3036
+2024-10-30 16h22m7s:Controller.cppSuccessful removal of client: 3036
+2024-10-30 16h22m7s:CClient.cpp  clientThread exit. ThreadParam = 0x3114400
+2024-10-30 16h22m7s:[UniconComm] Initialization done in 938 ms. ProjectId=91a5e660-0ab9-4278-ab78-829c7abc0cd6; doSyncIOs=0
+2024-10-30 16h22m7s:[UniconComm] call GET project/:id/models
+2024-10-30 16h22m7s:[UniconComm][28252] call GET http://localhost:60780/api/projects/91a5e660-0ab9-4278-ab78-829c7abc0cd6/models
+2024-10-30 16h22m7s:Model Boost_and_Two_Level_Inverter_IO has the modelId ab8df384-7f8c-4b7e-8154-7c2f08e26f86
+2024-10-30 16h22m7s:Controller.cppnew client: 31104
+2024-10-30 16h22m7s:CClient.cppCreating new client ID: 8664
+2024-10-30 16h22m7s:CClient.cppclientThread started with port:1724
+2024-10-30 16h22m7s:Instance ID = 102
+2024-10-30 16h22m7s:CClient.cppClient connected: name "pyrobert", computer "MTL-L-05487", ip "127.0.0.1", pid 30140
+2024-10-30 16h22m7s:ControllerHandleRequest.cpppClient->notifCommSock = 1716
+2024-10-30 16h22m7s:ControllerHandleRequest.cpppClient->notifCommSock = 1608
+2024-10-30 16h22m7s:Archive.cppArchiveFileToString : will open C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Boost_and_Two_Level_Inverter_IO.slx
+2024-10-30 16h22m7s:Archive.cppArchiveFileToString : C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Boost_and_Two_Level_Inverter_IO.slx opened
+2024-10-30 16h22m7s:Archive.cppArchiveFileToString : will open C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Boost_and_Two_Level_Inverter_IO.slx
+2024-10-30 16h22m7s:Archive.cppArchiveFileToString : C:\Users\PYRobert\GIT\AleksandraLis\RT_LAB_GIT_test_8\my_project\models\Boost_and_Two_Level_Inverter_Sfun\Boost_and_Two_Level_Inverter_IO.slx opened
+2024-10-30 16h22m7s:Address inserted in cache : 10.168.10.13:50909 => 1
+2024-10-30 16h22m7s:Controller.cppnew client: 31104
+2024-10-30 16h22m7s:CClient.cppCreating new client ID: 12480
+2024-10-30 16h22m7s:CClient.cppclientThread started with port:1856
+2024-10-30 16h22m7s:Instance ID = 102
+2024-10-30 16h22m7s:CClient.cppClient connected: name "pyrobert", computer "MTL-L-05487", ip "127.0.0.1", pid 30140
+2024-10-30 16h22m9s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m9s:WinUtils.cppTarget node 10.168.11.107 is not responding. 
+Verify that the node is up and is connected to network.
+2024-10-30 16h22m10s:Controller.cppnew client: 31104
+2024-10-30 16h22m10s:CClient.cppCreating new client ID: 24832
+2024-10-30 16h22m10s:CClient.cppclientThread started with port:1684
+2024-10-30 16h22m10s:Instance ID = 102
+2024-10-30 16h22m10s:CClient.cppClient connected: name "pyrobert", computer "MTL-L-05487", ip "127.0.0.1", pid 30140
+2024-10-30 16h22m13s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m13s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m14s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m14s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m15s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m18s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m19s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m19s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m20s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m20s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m24s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m24s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m25s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m25s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m25s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h22m26s:Controller.cppnew client: 31104
+2024-10-30 16h22m26s:CClient.cppCreating new client ID: 18972
+2024-10-30 16h22m26s:CClient.cppclientThread started with port:1964
+2024-10-30 16h22m26s:Instance ID = 102
+2024-10-30 16h22m26s:CClient.cppClient connected: name "pyrobert", computer "MTL-L-05487", ip "127.0.0.1", pid 30140
+2024-10-30 16h22m26s:Controller.cppNOTIFICATION MSG IS: 2089389851634846236,2045
+2024-10-30 16h22m26s:>>> Using MatlabCOM as in-process server
+2024-10-30 16h22m26s:Service Matlab/CommandsProcessor found
+2024-10-30 16h22m26s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m29s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m30s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m30s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m31s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m31s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m35s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m35s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m36s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m36s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m37s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m38s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h22m40s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m41s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m41s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m42s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m42s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m46s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m46s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m47s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m47s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m48s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m50s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h22m51s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m52s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m52s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m53s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m53s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m57s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m57s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m58s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m58s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h22m59s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m2s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m3s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m3s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h23m3s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m4s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m5s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m8s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m9s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m9s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m10s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m10s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m14s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m14s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m15s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m15s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m15s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h23m16s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m19s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m20s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m20s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m21s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m21s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m25s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m25s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m26s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m26s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m27s:MatlabHandler - createConnection: create connection has been successful with Matlab version = 9.11
+2024-10-30 16h23m27s:[UniconComm] call POST /models/{model_id}/sync
+2024-10-30 16h23m27s:[UniconComm][18972] call POST http://localhost:60780/api/models/ab8df384-7f8c-4b7e-8154-7c2f08e26f86/sync?deep=false&wait=true
+2024-10-30 16h23m27s:Curl comm init (client 18972)
+2024-10-30 16h23m27s:Controller.cppnew client: 31104
+2024-10-30 16h23m27s:CClient.cppCreating new client ID: 30852
+2024-10-30 16h23m27s:CClient.cppclientThread started with port:2004
+2024-10-30 16h23m27s:Instance ID = 102
+2024-10-30 16h23m27s:CClient.cppClient connected: name "pyrobert", computer "MTL-L-05487", ip "127.0.0.1", pid 30164
+2024-10-30 16h23m27s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m27s:Controller.cppNOTIFICATION MSG IS: 
+2024-10-30 16h23m27s:Controller.cppNOTIFICATION MSG IS: 0
+2024-10-30 16h23m27s:Controller.cppRemoving client: 30852
+2024-10-30 16h23m27s:Controller.cppSuccessful removal of client: 30852
+2024-10-30 16h23m27s:CClient.cpp  clientThread exit. ThreadParam = 0x31a1af0
+2024-10-30 16h23m28s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h23m30s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-10-30 16h23m30s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m31s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m31s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.98
+2024-10-30 16h23m32s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m32s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m32s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m34s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h23m36s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m36s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m37s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m37s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m38s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m41s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m42s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m42s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m43s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m43s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m47s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m47s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h23m47s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m48s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m48s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m49s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m52s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m53s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m53s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m54s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m54s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m58s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m58s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m59s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m59s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h23m59s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h24m0s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m3s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m4s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m4s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m5s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m5s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m9s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m9s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m10s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m10s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m11s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m12s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h24m14s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m15s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m15s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m16s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m16s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m20s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m20s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m21s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m21s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m22s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m24s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h24m25s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m26s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m26s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m27s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m27s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m31s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m31s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m32s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m32s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m33s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m36s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m37s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m37s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h24m37s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m38s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m38s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m42s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m42s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m43s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m43s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m44s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m47s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m48s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m48s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m49s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m49s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m49s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h24m53s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m53s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m54s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m54s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m55s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m58s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m59s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h24m59s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m0s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m0s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m2s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h25m4s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m4s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m5s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m5s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m6s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m9s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m10s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m10s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m11s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m11s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m14s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h25m15s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m15s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m16s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m16s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m17s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m20s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m21s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m21s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m22s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m22s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m26s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m26s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m27s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m27s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h25m27s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m28s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m31s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m32s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m32s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m33s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m33s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m37s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m37s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m38s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m38s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m39s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m39s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h25m42s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m43s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m43s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m44s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m44s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m48s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m48s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m49s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m49s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m50s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m52s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h25m53s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m54s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m54s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m55s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m55s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m59s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h25m59s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m0s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m0s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m1s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m4s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m4s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h26m5s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m5s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m6s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m6s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m10s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m10s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m11s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m11s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m12s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m15s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m16s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m16s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m17s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m17s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h26m17s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m21s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m21s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m22s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m22s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m23s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m26s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m27s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m27s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m28s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m28s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m28s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.98
+2024-10-30 16h26m29s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h26m32s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m32s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m33s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m33s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m34s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m37s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m38s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m38s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m39s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m39s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m42s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h26m43s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m43s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m44s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m44s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m45s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m48s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m49s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m49s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m50s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m50s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m54s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m54s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m54s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h26m55s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m55s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m56s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h26m59s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m0s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m0s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m1s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m1s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m5s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m5s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m6s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m6s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m7s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m7s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h27m10s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m11s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m11s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m12s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m12s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m16s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m16s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m17s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m17s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m18s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m19s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h27m21s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m22s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m22s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m23s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m23s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m27s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m27s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m28s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m28s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m29s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m32s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h27m32s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m33s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m33s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m34s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m34s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m38s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m38s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m39s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m39s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m40s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m43s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m44s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m44s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m44s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h27m45s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m45s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m49s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m49s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m50s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m50s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m51s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m54s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m55s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m55s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m56s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m56s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h27m57s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h28m0s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m0s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m1s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m1s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m2s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m5s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m6s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m6s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m7s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m7s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m9s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h28m11s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m11s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m12s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m12s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m13s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m16s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m17s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m17s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m18s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m18s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m22s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m22s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h28m22s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m23s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m23s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m24s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m27s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m28s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m28s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m29s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m29s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m33s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m33s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m34s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m34s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m34s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h28m35s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m38s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m39s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m39s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m40s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m40s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m44s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m44s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m45s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m45s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m46s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m47s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h28m49s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m50s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m50s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m51s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m51s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m55s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m55s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m56s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m56s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m57s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h28m59s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.110.102
+2024-10-30 16h29m0s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h29m1s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h29m1s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h29m2s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
+2024-10-30 16h29m2s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.168.11.107
